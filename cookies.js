@@ -23,8 +23,3 @@ function getCookie(name) {
     console.log("Cookie not found");
     return null;
 }
-
-// Test the cookie functions
-setCookie("testCookie", "12345", 7); // Set a test cookie
-console.log(document.cookie); // Log all cookies
-console.log(getCookie("testCookie")); // Retrieve the test cookie
