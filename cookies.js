@@ -23,3 +23,8 @@ function getCookie(name) {
     console.log("Cookie not found");
     return null;
 }
+
+// Test the cookie functions
+setCookie("counterVisitor", 7); // Set a cookie with a 7-day expiration
+console.log("Counter Visitor Cookie: " + getCookie("counterVisitor")); // Get the cookie value
+// Set a cookie with a 7-day expiration
