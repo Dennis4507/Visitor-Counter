@@ -1,3 +1,5 @@
 site:
   name: "Visitor Counter"
   theme: "default"
+  description: "A simple visitor counter for your website."
+  author: "Denis Riungu"
